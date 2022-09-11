@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTFOLIO Responsive</title>
+    <link rel="stylesheet" href="page.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+</head>
+<body>
+  <div class="container1">
+   <nav class="navigation">
+    <div class="container">
+      <div class="logo"><a href="page.html">PORTFOLIO</a></div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#ab">About Me</a></li>
+        <li><a href="#about">Contact</a></li>
+        <li>
+          <a href="#proj" class="desktop-item">Project</a>
+          <input type="checkbox" id="showproject">
+          <label for="showproject" class="mobile-item">project</label>
+          <ul class="drop-menu">
+          <li><a href="#project1">project1</a></li>
+          <li><a href="#project2">project2</a></li>
+          <li><a href="#project3">project3</a></li>
+          </ul>
+      </li>
+      <li><a href="#serv">Services</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+   </nav>
+    <div class="middleborder" id="home">
+    <div class="middle">
+      <p><strong> Hello,I'm Maibam George </strong><span>Frontend developer</span></p>
+    </div>
+     <div class="myphoto">
+      <img src="IMG_20220909_175256.jpg"alt="">
+     </div>
+    </div>
+    <hr>
+    <div class="aboutme" id="ab">
+      <h1>About Me</h1>
+      <hr>
+      <div class="contain">
+        <div class="photocontainer">
+          <img src="IMG_20220909_175309.jpg" alt="">
+        </div>
+        <div class="introduction">
+          <p><strong><h1>Hi,</h1></strong><span>I am Maibam George Singh</span>
+          <strong><h3>I design and develop ynamic websites for small and medium buiseness</h3></p>
+            <p>I was born on 3rd 2003 in Imphal,Manipur and currently study <span>Computer Science Engineering at 
+              MTU-Manipur Technical University,Imphal,Manipur.</span></p>       
+          </div>
+      </div>
+    </div>
+    <hr>
+      <div class="contact"  id="about">
+        <h1>Contact Us</h1>
+        <hr class="hr3">
+        <h2>Have any questions? We'd love to hear from you</h2>
+        <div class="contact-items">
+            <div class="customer-care">
+                <h3>Customer Care</h3>
+                <p>Our Support team is spread all over the world to give you fast response</p>
+                <button id="cust-care"> Submit a Request</button>
+                <a href="#"> Frequently asked Questions</a>
+            </div>
+            <div class="write-us">
+                <h3>Write Us</h3>
+                <p> You can write us if you have any queries</p>
+               <a href="#"> <button id="write">Write</button></a>
+            </div>
+            <div class="sales-market">
+                <h3> Sales and Marketing</h3>
+                <p>Get in touch with our sales and marketing team</p>
+                <button id="sales">Contact Sales</button>
+                <a href="#">View Plans</a>
+            </div>
+        </div>
+    </div>
+    <hr>
+    
+    <div class="project" id="proj" >
+      <h1>Project</h1>
+      <hr class="line">
+      <h2>Recent Project</h2>
+      <div class="projectcontainer">
+      <div class="projects">
+        <h1>Project I</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio cum amet maiores numquam. Iste ipsam veniam debitis assumenda voluptatum amet animi repellendus dicta vitae eaque quasi, fugit accusamus eos! Consectetur reiciendis excepturi vitae facere similique modi voluptates. Ab corrupti fuga quidem minus pariatur commodi qui consectetur nostrum nesciunt molestiae. Explicabo!</p>
+        <button type="button">Click Here</button>
+      </div>
+      <div class="projects" id="project2">
+        <h1>Project II</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium nam maxime aut mollitia illum voluptatibus suscipit officia, harum odit iure quas incidunt, quos non dolor ullam repellat nihil temporibus maiores dicta inventore delectus et. Laudantium tempore veritatis, architecto mollitia harum eos minima accusantium consequuntur unde, non expedita aliquid veniam. Commodi.</p>
+        <div class="click">
+        <button type="button">Click Here</button>
+        </div>
+      </div>
+      <div class="projects">
+        <h1>Project III</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias qui vel voluptate nisi ab ut animi cupiditate, id molestias non! Harum amet nulla ullam. Eaque laudantium cupiditate, reiciendis rem voluptates alias voluptatibus tempore suscipit neque, eveniet eos ut dolore laborum inventore cum! Molestias libero eius quis ducimus voluptatibus, incidunt modi.</p>
+        <button type="button">Click Here</button>
+      </div>
+      </div>
+    </div>
+    <section class="services" id="serv">
+      <div class="s-heading">
+        <h1>Ser<font color="#4a90e2">vic</font>es</h1>
+        <p>We Provide The Best In Class Servies For Our Customers</p>
+      </div>
+      <div class="s-box-container">
+        <div class="spendmoney">
+            <img alt="1" src="https://image.shutterstock.com/image-vector/hand-holding-pile-money-banknotes-260nw-546258340.jpg" />
+            <h1>Spend Money</h1>
+            <p>Track on your all daily expense and make your day to life easier.</p>
+            <a class="s-btn" href="#">More</a>
+        </div>
+        <div class="budget">
+           <img alt="2" src="https://store-images.s-microsoft.com/image/apps.8669.9007199266442667.d6854785-3e20-4149-841d-8b67930b0520.6c3e39de-f79c-48ef-ac7f-a821c233b7bd" />
+          <h1>Set Budget</h1>
+          <p>Make a Budget That Fit Right With You And Can Do Most With It</p>
+          <a class="s-btn" href="#">More</a>
+        </div>	
+        <div class="security">
+          <img alt="3" src="https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX31048371.jpg" />
+          <h1>Security</h1>
+          <p>We Store All Card Info And Money Safe To Make You Relax And Crazy</p>
+          <a class="s-btn" href="#">More</a>
+        </div>
+      </div>
+      </section>
+    
+  </div>
+ 
+
+ 
+
+</body>
+
+</html>
+
+        
